@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cryptocurrency Market Data Visualization</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <div class="items">CryptoTracker</div>
+        <div class="right">
+
+            <div class="items">
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label>              
+            </div>
+            <div class="items">Home</div>
+            <div class="items">Compare</div>
+            <div class="items">Watchlist</div>
+            <div class="items"> <button class="dashboard">Dashboard</button></div>
+        </div>
+    </div>
+  <div class="tabs">
+    <button id="gridViewBtn">Grid</button>
+    <button id="listViewBtn">List</button>
+  </div>
+  <div class="container" id="dataContainer">
+    <!-- Fetched cryptocurrency data will be displayed here -->
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
